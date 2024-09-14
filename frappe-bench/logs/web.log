@@ -1,0 +1,251 @@
+Updating Dashboard for frappe
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 114, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1775, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/erpnext/erpnext/selling/doctype/sales_order/sales_order.py", line 1532, in make_work_orders
+    work_order.save()
+  File "apps/frappe/frappe/model/document.py", line 337, in save
+    return self._save(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 373, in _save
+    self.run_before_save_methods()
+  File "apps/frappe/frappe/model/document.py", line 1091, in run_before_save_methods
+    self.run_method("validate")
+  File "apps/frappe/frappe/model/document.py", line 962, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1322, in composer
+    return composed(self, method, *args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1304, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "apps/frappe/frappe/model/document.py", line 959, in fn
+    return method_object(*args, **kwargs)
+  File "apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.py", line 158, in validate
+    self.validate_operation_time()
+  File "apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.py", line 1011, in validate_operation_time
+    frappe.throw(_("Operation Time must be greater than 0 for Operation {0}").format(d.operation))
+  File "apps/frappe/frappe/__init__.py", line 652, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 617, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 568, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: Operation Time must be greater than 0 for Operation Tạo vành xe
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 114, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1775, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/erpnext/erpnext/selling/doctype/sales_order/sales_order.py", line 1532, in make_work_orders
+    work_order.save()
+  File "apps/frappe/frappe/model/document.py", line 337, in save
+    return self._save(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 373, in _save
+    self.run_before_save_methods()
+  File "apps/frappe/frappe/model/document.py", line 1091, in run_before_save_methods
+    self.run_method("validate")
+  File "apps/frappe/frappe/model/document.py", line 962, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1322, in composer
+    return composed(self, method, *args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1304, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "apps/frappe/frappe/model/document.py", line 959, in fn
+    return method_object(*args, **kwargs)
+  File "apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.py", line 158, in validate
+    self.validate_operation_time()
+  File "apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.py", line 1011, in validate_operation_time
+    frappe.throw(_("Operation Time must be greater than 0 for Operation {0}").format(d.operation))
+  File "apps/frappe/frappe/__init__.py", line 652, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 617, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 568, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: Operation Time must be greater than 0 for Operation Tạo vành xe
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 114, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1775, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/desk/form/save.py", line 37, in savedocs
+    doc.submit()
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1048, in submit
+    return self._submit()
+  File "apps/frappe/frappe/model/document.py", line 1031, in _submit
+    return self.save()
+  File "apps/frappe/frappe/model/document.py", line 337, in save
+    return self._save(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 379, in _save
+    self.validate_update_after_submit()
+  File "apps/frappe/frappe/model/document.py", line 884, in validate_update_after_submit
+    self._validate_update_after_submit()
+  File "apps/frappe/frappe/model/base_document.py", line 1043, in _validate_update_after_submit
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 652, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 617, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 568, in _raise_exception
+    raise exc
+frappe.exceptions.UpdateAfterSubmitError:  Not allowed to change <strong>Operating Cost (Company Currency)</strong> after submission from <strong>0.0</strong> to <strong>74000.0</strong>
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 114, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1775, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/erpnext/erpnext/selling/doctype/sales_order/sales_order.py", line 1532, in make_work_orders
+    work_order.save()
+  File "apps/frappe/frappe/model/document.py", line 337, in save
+    return self._save(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 373, in _save
+    self.run_before_save_methods()
+  File "apps/frappe/frappe/model/document.py", line 1091, in run_before_save_methods
+    self.run_method("validate")
+  File "apps/frappe/frappe/model/document.py", line 962, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1322, in composer
+    return composed(self, method, *args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1304, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "apps/frappe/frappe/model/document.py", line 959, in fn
+    return method_object(*args, **kwargs)
+  File "apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.py", line 158, in validate
+    self.validate_operation_time()
+  File "apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.py", line 1011, in validate_operation_time
+    frappe.throw(_("Operation Time must be greater than 0 for Operation {0}").format(d.operation))
+  File "apps/frappe/frappe/__init__.py", line 652, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 617, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 568, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: Operation Time must be greater than 0 for Operation Tạo vành xe
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 114, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1775, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/erpnext/erpnext/selling/doctype/sales_order/sales_order.py", line 1532, in make_work_orders
+    work_order.save()
+  File "apps/frappe/frappe/model/document.py", line 337, in save
+    return self._save(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 373, in _save
+    self.run_before_save_methods()
+  File "apps/frappe/frappe/model/document.py", line 1091, in run_before_save_methods
+    self.run_method("validate")
+  File "apps/frappe/frappe/model/document.py", line 962, in run_method
+    out = Document.hook(fn)(self, *args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1322, in composer
+    return composed(self, method, *args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1304, in runner
+    add_to_return_value(self, fn(self, *args, **kwargs))
+  File "apps/frappe/frappe/model/document.py", line 959, in fn
+    return method_object(*args, **kwargs)
+  File "apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.py", line 158, in validate
+    self.validate_operation_time()
+  File "apps/erpnext/erpnext/manufacturing/doctype/work_order/work_order.py", line 1011, in validate_operation_time
+    frappe.throw(_("Operation Time must be greater than 0 for Operation {0}").format(d.operation))
+  File "apps/frappe/frappe/__init__.py", line 652, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 617, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 568, in _raise_exception
+    raise exc
+frappe.exceptions.ValidationError: Operation Time must be greater than 0 for Operation Tạo vành xe
+
+Traceback (most recent call last):
+  File "apps/frappe/frappe/app.py", line 114, in application
+    response = frappe.api.handle(request)
+  File "apps/frappe/frappe/api/__init__.py", line 49, in handle
+    data = endpoint(**arguments)
+  File "apps/frappe/frappe/api/v1.py", line 36, in handle_rpc_call
+    return frappe.handler.handle()
+  File "apps/frappe/frappe/handler.py", line 49, in handle
+    data = execute_cmd(cmd)
+  File "apps/frappe/frappe/handler.py", line 85, in execute_cmd
+    return frappe.call(method, **frappe.form_dict)
+  File "apps/frappe/frappe/__init__.py", line 1775, in call
+    return fn(*args, **newargs)
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/desk/form/save.py", line 37, in savedocs
+    doc.submit()
+  File "apps/frappe/frappe/utils/typing_validations.py", line 31, in wrapper
+    return func(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 1048, in submit
+    return self._submit()
+  File "apps/frappe/frappe/model/document.py", line 1031, in _submit
+    return self.save()
+  File "apps/frappe/frappe/model/document.py", line 337, in save
+    return self._save(*args, **kwargs)
+  File "apps/frappe/frappe/model/document.py", line 379, in _save
+    self.validate_update_after_submit()
+  File "apps/frappe/frappe/model/document.py", line 884, in validate_update_after_submit
+    self._validate_update_after_submit()
+  File "apps/frappe/frappe/model/base_document.py", line 1043, in _validate_update_after_submit
+    frappe.throw(
+  File "apps/frappe/frappe/__init__.py", line 652, in throw
+    msgprint(
+  File "apps/frappe/frappe/__init__.py", line 617, in msgprint
+    _raise_exception()
+  File "apps/frappe/frappe/__init__.py", line 568, in _raise_exception
+    raise exc
+frappe.exceptions.UpdateAfterSubmitError:  Not allowed to change <strong>Total Cost</strong> after submission from <strong>0.0</strong> to <strong>74000.0</strong>
+

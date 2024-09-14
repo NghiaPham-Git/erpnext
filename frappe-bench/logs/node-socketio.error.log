@@ -1,0 +1,60 @@
+/home/frappe/frappe-bench/apps/frappe/node_modules/@redis/client/dist/lib/client/index.js:35
+            modules: extensions?.modules,
+                                ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:85:18)
+    at Object.<anonymous> (/home/frappe/frappe-bench/apps/frappe/node_modules/@redis/client/dist/index.js:18:18)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+/home/frappe/frappe-bench/apps/frappe/node_modules/@redis/client/dist/lib/client/index.js:35
+            modules: extensions?.modules,
+                                ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:85:18)
+    at Object.<anonymous> (/home/frappe/frappe-bench/apps/frappe/node_modules/@redis/client/dist/index.js:18:18)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+/home/frappe/frappe-bench/apps/frappe/node_modules/@redis/client/dist/lib/client/index.js:35
+            modules: extensions?.modules,
+                                ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:85:18)
+    at Object.<anonymous> (/home/frappe/frappe-bench/apps/frappe/node_modules/@redis/client/dist/index.js:18:18)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+/home/frappe/frappe-bench/apps/frappe/node_modules/@redis/client/dist/lib/client/index.js:35
+            modules: extensions?.modules,
+                                ^
+
+SyntaxError: Unexpected token '.'
+    at wrapSafe (internal/modules/cjs/loader.js:915:16)
+    at Module._compile (internal/modules/cjs/loader.js:963:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)
+    at Module.load (internal/modules/cjs/loader.js:863:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:708:14)
+    at Module.require (internal/modules/cjs/loader.js:887:19)
+    at require (internal/modules/cjs/helpers.js:85:18)
+    at Object.<anonymous> (/home/frappe/frappe-bench/apps/frappe/node_modules/@redis/client/dist/index.js:18:18)
+    at Module._compile (internal/modules/cjs/loader.js:999:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1027:10)

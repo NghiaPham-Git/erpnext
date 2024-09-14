@@ -1,0 +1,108 @@
+set -o pipefail; /usr/bin/mariadb-dump --user=_f1da18e369696a89 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f1da18e369696a89 | /usr/bin/gzip >> ./osb.localhost/private/backups/20240906_120002-osb_localhost-database.sql.gz
+
+Backup Summary for osb.localhost at 2024-09-06 12:00:04.205942
+Config  : ./osb.localhost/private/backups/20240906_120002-osb_localhost-site_config_backup.json 113.0B
+Database: ./osb.localhost/private/backups/20240906_120002-osb_localhost-database.sql.gz         815.1KiB
+Backup for Site osb.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f1da18e369696a89 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f1da18e369696a89 | /usr/bin/gzip >> ./osb.localhost/private/backups/20240906_180002-osb_localhost-database.sql.gz
+
+Backup Summary for osb.localhost at 2024-09-06 18:00:05.066817
+Config  : ./osb.localhost/private/backups/20240906_180002-osb_localhost-site_config_backup.json 113.0B
+Database: ./osb.localhost/private/backups/20240906_180002-osb_localhost-database.sql.gz         822.5KiB
+Backup for Site osb.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f1da18e369696a89 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f1da18e369696a89 | /usr/bin/gzip >> ./osb.localhost/private/backups/20240907_000001-osb_localhost-database.sql.gz
+
+Backup Summary for osb.localhost at 2024-09-07 00:00:04.549762
+Config  : ./osb.localhost/private/backups/20240907_000001-osb_localhost-site_config_backup.json 113.0B
+Database: ./osb.localhost/private/backups/20240907_000001-osb_localhost-database.sql.gz         827.4KiB
+Backup for Site osb.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f1da18e369696a89 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f1da18e369696a89 | /usr/bin/gzip >> ./osb.localhost/private/backups/20240907_120002-osb_localhost-database.sql.gz
+
+Backup Summary for osb.localhost at 2024-09-07 12:00:04.547866
+Config  : ./osb.localhost/private/backups/20240907_120002-osb_localhost-site_config_backup.json 113.0B
+Database: ./osb.localhost/private/backups/20240907_120002-osb_localhost-database.sql.gz         836.5KiB
+Backup for Site osb.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f1da18e369696a89 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f1da18e369696a89 | /usr/bin/gzip >> ./osb.localhost/private/backups/20240908_000002-osb_localhost-database.sql.gz
+
+Backup Summary for osb.localhost at 2024-09-08 00:00:05.496424
+Config  : ./osb.localhost/private/backups/20240908_000002-osb_localhost-site_config_backup.json 113.0B
+Database: ./osb.localhost/private/backups/20240908_000002-osb_localhost-database.sql.gz         851.4KiB
+Backup for Site osb.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f1da18e369696a89 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f1da18e369696a89 | /usr/bin/gzip >> ./osb.localhost/private/backups/20240908_120002-osb_localhost-database.sql.gz
+
+Backup Summary for osb.localhost at 2024-09-08 12:00:04.418727
+Config  : ./osb.localhost/private/backups/20240908_120002-osb_localhost-site_config_backup.json 113.0B
+Database: ./osb.localhost/private/backups/20240908_120002-osb_localhost-database.sql.gz         858.9KiB
+Backup for Site osb.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f1da18e369696a89 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f1da18e369696a89 | /usr/bin/gzip >> ./osb.localhost/private/backups/20240908_180003-osb_localhost-database.sql.gz
+
+Backup Summary for osb.localhost at 2024-09-08 18:00:06.194350
+Config  : ./osb.localhost/private/backups/20240908_180003-osb_localhost-site_config_backup.json 113.0B
+Database: ./osb.localhost/private/backups/20240908_180003-osb_localhost-database.sql.gz         862.3KiB
+Backup for Site osb.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f1da18e369696a89 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f1da18e369696a89 | /usr/bin/gzip >> ./osb.localhost/private/backups/20240909_000003-osb_localhost-database.sql.gz
+
+Backup Summary for osb.localhost at 2024-09-09 00:00:06.630122
+Config  : ./osb.localhost/private/backups/20240909_000003-osb_localhost-site_config_backup.json 113.0B
+Database: ./osb.localhost/private/backups/20240909_000003-osb_localhost-database.sql.gz         862.3KiB
+Backup for Site osb.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f1da18e369696a89 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f1da18e369696a89 | /usr/bin/gzip >> ./osb.localhost/private/backups/20240909_060001-osb_localhost-database.sql.gz
+
+Backup Summary for osb.localhost at 2024-09-09 06:00:03.148206
+Config  : ./osb.localhost/private/backups/20240909_060001-osb_localhost-site_config_backup.json 113.0B
+Database: ./osb.localhost/private/backups/20240909_060001-osb_localhost-database.sql.gz         862.3KiB
+Backup for Site osb.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f1da18e369696a89 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f1da18e369696a89 | /usr/bin/gzip >> ./osb.localhost/private/backups/20240909_120002-osb_localhost-database.sql.gz
+
+Backup Summary for osb.localhost at 2024-09-09 12:00:03.582890
+Config  : ./osb.localhost/private/backups/20240909_120002-osb_localhost-site_config_backup.json 113.0B
+Database: ./osb.localhost/private/backups/20240909_120002-osb_localhost-database.sql.gz         867.0KiB
+Backup for Site osb.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f1da18e369696a89 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f1da18e369696a89 | /usr/bin/gzip >> ./osb.localhost/private/backups/20240910_000052-osb_localhost-database.sql.gz
+
+Backup Summary for osb.localhost at 2024-09-10 00:00:54.165328
+Config  : ./osb.localhost/private/backups/20240910_000052-osb_localhost-site_config_backup.json 113.0B
+Database: ./osb.localhost/private/backups/20240910_000052-osb_localhost-database.sql.gz         869.8KiB
+Backup for Site osb.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f1da18e369696a89 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f1da18e369696a89 | /usr/bin/gzip >> ./osb.localhost/private/backups/20240910_120002-osb_localhost-database.sql.gz
+
+Backup Summary for osb.localhost at 2024-09-10 12:00:04.067661
+Config  : ./osb.localhost/private/backups/20240910_120002-osb_localhost-site_config_backup.json 113.0B
+Database: ./osb.localhost/private/backups/20240910_120002-osb_localhost-database.sql.gz         876.2KiB
+Backup for Site osb.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f1da18e369696a89 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f1da18e369696a89 | /usr/bin/gzip >> ./osb.localhost/private/backups/20240911_180001-osb_localhost-database.sql.gz
+
+Backup Summary for osb.localhost at 2024-09-11 18:00:04.041719
+Config  : ./osb.localhost/private/backups/20240911_180001-osb_localhost-site_config_backup.json 135.0B
+Database: ./osb.localhost/private/backups/20240911_180001-osb_localhost-database.sql.gz         920.5KiB
+Backup for Site osb.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f1da18e369696a89 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f1da18e369696a89 | /usr/bin/gzip >> ./osb.localhost/private/backups/20240912_000002-osb_localhost-database.sql.gz
+
+Backup Summary for osb.localhost at 2024-09-12 00:00:04.802531
+Config  : ./osb.localhost/private/backups/20240912_000002-osb_localhost-site_config_backup.json 135.0B
+Database: ./osb.localhost/private/backups/20240912_000002-osb_localhost-database.sql.gz         927.6KiB
+Backup for Site osb.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f1da18e369696a89 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f1da18e369696a89 | /usr/bin/gzip >> ./osb.localhost/private/backups/20240912_180001-osb_localhost-database.sql.gz
+
+Backup Summary for osb.localhost at 2024-09-12 18:00:03.548962
+Config  : ./osb.localhost/private/backups/20240912_180001-osb_localhost-site_config_backup.json 135.0B
+Database: ./osb.localhost/private/backups/20240912_180001-osb_localhost-database.sql.gz         946.0KiB
+Backup for Site osb.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f1da18e369696a89 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f1da18e369696a89 | /usr/bin/gzip >> ./osb.localhost/private/backups/20240913_000002-osb_localhost-database.sql.gz
+
+Backup Summary for osb.localhost at 2024-09-13 00:00:03.591743
+Config  : ./osb.localhost/private/backups/20240913_000002-osb_localhost-site_config_backup.json 135.0B
+Database: ./osb.localhost/private/backups/20240913_000002-osb_localhost-database.sql.gz         953.7KiB
+Backup for Site osb.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f1da18e369696a89 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f1da18e369696a89 | /usr/bin/gzip >> ./osb.localhost/private/backups/20240913_120001-osb_localhost-database.sql.gz
+
+Backup Summary for osb.localhost at 2024-09-13 12:00:04.059333
+Config  : ./osb.localhost/private/backups/20240913_120001-osb_localhost-site_config_backup.json 135.0B
+Database: ./osb.localhost/private/backups/20240913_120001-osb_localhost-database.sql.gz         952.9KiB
+Backup for Site osb.localhost has been successfully completed
+set -o pipefail; /usr/bin/mariadb-dump --user=_f1da18e369696a89 --host=127.0.0.1 --port=3306 --password=********** --single-transaction --quick --lock-tables=false _f1da18e369696a89 | /usr/bin/gzip >> ./osb.localhost/private/backups/20240914_000002-osb_localhost-database.sql.gz
+
+Backup Summary for osb.localhost at 2024-09-14 00:00:06.461547
+Config  : ./osb.localhost/private/backups/20240914_000002-osb_localhost-site_config_backup.json 135.0B
+Database: ./osb.localhost/private/backups/20240914_000002-osb_localhost-database.sql.gz         977.4KiB
+Backup for Site osb.localhost has been successfully completed

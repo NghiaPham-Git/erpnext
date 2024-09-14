@@ -1,0 +1,472 @@
+[2024-09-04 15:17:07 +0700] [14131] [INFO] Starting gunicorn 22.0.0
+[2024-09-04 15:17:07 +0700] [14131] [INFO] Listening at: http://127.0.0.1:8000 (14131)
+[2024-09-04 15:17:07 +0700] [14131] [INFO] Using worker: sync
+[2024-09-04 15:17:07 +0700] [14179] [INFO] Booting worker with pid: 14179
+[2024-09-04 15:17:07 +0700] [14180] [INFO] Booting worker with pid: 14180
+[2024-09-04 15:17:07 +0700] [14181] [INFO] Booting worker with pid: 14181
+[2024-09-04 15:17:07 +0700] [14182] [INFO] Booting worker with pid: 14182
+[2024-09-04 15:17:07 +0700] [14189] [INFO] Booting worker with pid: 14189
+[2024-09-04 15:17:07 +0700] [14191] [INFO] Booting worker with pid: 14191
+[2024-09-04 15:17:07 +0700] [14192] [INFO] Booting worker with pid: 14192
+[2024-09-04 15:17:08 +0700] [14193] [INFO] Booting worker with pid: 14193
+[2024-09-04 15:17:08 +0700] [14195] [INFO] Booting worker with pid: 14195
+[2024-09-04 15:17:08 +0700] [14196] [INFO] Booting worker with pid: 14196
+[2024-09-04 15:17:08 +0700] [14197] [INFO] Booting worker with pid: 14197
+[2024-09-04 15:17:08 +0700] [14198] [INFO] Booting worker with pid: 14198
+[2024-09-04 15:17:08 +0700] [14199] [INFO] Booting worker with pid: 14199
+[2024-09-04 15:17:08 +0700] [14200] [INFO] Booting worker with pid: 14200
+[2024-09-04 15:17:08 +0700] [14201] [INFO] Booting worker with pid: 14201
+[2024-09-04 15:17:08 +0700] [14202] [INFO] Booting worker with pid: 14202
+[2024-09-04 15:17:08 +0700] [14203] [INFO] Booting worker with pid: 14203
+[2024-09-04 15:17:08 +0700] [14204] [INFO] Booting worker with pid: 14204
+[2024-09-04 15:17:08 +0700] [14205] [INFO] Booting worker with pid: 14205
+[2024-09-04 15:17:08 +0700] [14206] [INFO] Booting worker with pid: 14206
+[2024-09-04 15:17:08 +0700] [14207] [INFO] Booting worker with pid: 14207
+[2024-09-04 15:17:08 +0700] [14208] [INFO] Booting worker with pid: 14208
+[2024-09-04 15:17:08 +0700] [14209] [INFO] Booting worker with pid: 14209
+[2024-09-04 15:17:08 +0700] [14210] [INFO] Booting worker with pid: 14210
+[2024-09-04 15:17:08 +0700] [14211] [INFO] Booting worker with pid: 14211
+[2024-09-04 15:17:16 +0700] [14131] [INFO] Handling signal: term
+[2024-09-04 15:17:16 +0700] [14179] [INFO] Worker exiting (pid: 14179)
+[2024-09-04 15:17:16 +0700] [14181] [INFO] Worker exiting (pid: 14181)
+[2024-09-04 15:17:16 +0700] [14192] [INFO] Worker exiting (pid: 14192)
+[2024-09-04 15:17:16 +0700] [14180] [INFO] Worker exiting (pid: 14180)
+[2024-09-04 15:17:16 +0700] [14182] [INFO] Worker exiting (pid: 14182)
+[2024-09-04 15:17:16 +0700] [14191] [INFO] Worker exiting (pid: 14191)
+[2024-09-04 15:17:16 +0700] [14198] [INFO] Worker exiting (pid: 14198)
+[2024-09-04 15:17:16 +0700] [14204] [INFO] Worker exiting (pid: 14204)
+[2024-09-04 15:17:16 +0700] [14202] [INFO] Worker exiting (pid: 14202)
+[2024-09-04 15:17:16 +0700] [14201] [INFO] Worker exiting (pid: 14201)
+[2024-09-04 15:17:16 +0700] [14195] [INFO] Worker exiting (pid: 14195)
+[2024-09-04 15:17:16 +0700] [14197] [INFO] Worker exiting (pid: 14197)
+[2024-09-04 15:17:16 +0700] [14193] [INFO] Worker exiting (pid: 14193)
+[2024-09-04 15:17:16 +0700] [14196] [INFO] Worker exiting (pid: 14196)
+[2024-09-04 15:17:16 +0700] [14209] [INFO] Worker exiting (pid: 14209)
+[2024-09-04 15:17:16 +0700] [14199] [INFO] Worker exiting (pid: 14199)
+[2024-09-04 15:17:16 +0700] [14200] [INFO] Worker exiting (pid: 14200)
+[2024-09-04 15:17:16 +0700] [14189] [INFO] Worker exiting (pid: 14189)
+[2024-09-04 15:17:16 +0700] [14207] [INFO] Worker exiting (pid: 14207)
+[2024-09-04 15:17:16 +0700] [14210] [INFO] Worker exiting (pid: 14210)
+[2024-09-04 15:17:16 +0700] [14205] [INFO] Worker exiting (pid: 14205)
+[2024-09-04 15:17:16 +0700] [14208] [INFO] Worker exiting (pid: 14208)
+[2024-09-04 15:17:16 +0700] [14203] [INFO] Worker exiting (pid: 14203)
+[2024-09-04 15:17:16 +0700] [14211] [INFO] Worker exiting (pid: 14211)
+[2024-09-04 15:17:16 +0700] [14206] [INFO] Worker exiting (pid: 14206)
+[2024-09-04 15:17:16 +0700] [14131] [INFO] Shutting down: Master
+[2024-09-04 15:17:19 +0700] [14262] [INFO] Starting gunicorn 22.0.0
+[2024-09-04 15:17:19 +0700] [14262] [INFO] Listening at: http://127.0.0.1:8000 (14262)
+[2024-09-04 15:17:19 +0700] [14262] [INFO] Using worker: sync
+[2024-09-04 15:17:19 +0700] [14289] [INFO] Booting worker with pid: 14289
+[2024-09-04 15:17:19 +0700] [14290] [INFO] Booting worker with pid: 14290
+[2024-09-04 15:17:19 +0700] [14291] [INFO] Booting worker with pid: 14291
+[2024-09-04 15:17:19 +0700] [14292] [INFO] Booting worker with pid: 14292
+[2024-09-04 15:17:19 +0700] [14293] [INFO] Booting worker with pid: 14293
+[2024-09-04 15:17:19 +0700] [14294] [INFO] Booting worker with pid: 14294
+[2024-09-04 15:17:19 +0700] [14295] [INFO] Booting worker with pid: 14295
+[2024-09-04 15:17:19 +0700] [14296] [INFO] Booting worker with pid: 14296
+[2024-09-04 15:17:19 +0700] [14297] [INFO] Booting worker with pid: 14297
+[2024-09-04 15:17:19 +0700] [14298] [INFO] Booting worker with pid: 14298
+[2024-09-04 15:17:19 +0700] [14299] [INFO] Booting worker with pid: 14299
+[2024-09-04 15:17:19 +0700] [14300] [INFO] Booting worker with pid: 14300
+[2024-09-04 15:17:19 +0700] [14301] [INFO] Booting worker with pid: 14301
+[2024-09-04 15:17:19 +0700] [14302] [INFO] Booting worker with pid: 14302
+[2024-09-04 15:17:20 +0700] [14303] [INFO] Booting worker with pid: 14303
+[2024-09-04 15:17:20 +0700] [14304] [INFO] Booting worker with pid: 14304
+[2024-09-04 15:17:20 +0700] [14305] [INFO] Booting worker with pid: 14305
+[2024-09-04 15:17:20 +0700] [14307] [INFO] Booting worker with pid: 14307
+[2024-09-04 15:17:20 +0700] [14308] [INFO] Booting worker with pid: 14308
+[2024-09-04 15:17:20 +0700] [14309] [INFO] Booting worker with pid: 14309
+[2024-09-04 15:17:20 +0700] [14310] [INFO] Booting worker with pid: 14310
+[2024-09-04 15:17:20 +0700] [14311] [INFO] Booting worker with pid: 14311
+[2024-09-04 15:17:20 +0700] [14312] [INFO] Booting worker with pid: 14312
+[2024-09-04 15:17:20 +0700] [14313] [INFO] Booting worker with pid: 14313
+[2024-09-04 15:17:20 +0700] [14314] [INFO] Booting worker with pid: 14314
+[2024-09-04 15:19:31 +0700] [14262] [INFO] Handling signal: term
+[2024-09-04 15:19:31 +0700] [14292] [INFO] Worker exiting (pid: 14292)
+[2024-09-04 15:19:31 +0700] [14289] [INFO] Worker exiting (pid: 14289)
+[2024-09-04 15:19:31 +0700] [14291] [INFO] Worker exiting (pid: 14291)
+[2024-09-04 15:19:31 +0700] [14294] [INFO] Worker exiting (pid: 14294)
+[2024-09-04 15:19:31 +0700] [14290] [INFO] Worker exiting (pid: 14290)
+[2024-09-04 15:19:31 +0700] [14293] [INFO] Worker exiting (pid: 14293)
+[2024-09-04 15:19:31 +0700] [14299] [INFO] Worker exiting (pid: 14299)
+[2024-09-04 15:19:31 +0700] [14296] [INFO] Worker exiting (pid: 14296)
+[2024-09-04 15:19:31 +0700] [14310] [INFO] Worker exiting (pid: 14310)
+[2024-09-04 15:19:31 +0700] [14313] [INFO] Worker exiting (pid: 14313)
+[2024-09-04 15:19:31 +0700] [14297] [INFO] Worker exiting (pid: 14297)
+[2024-09-04 15:19:31 +0700] [14302] [INFO] Worker exiting (pid: 14302)
+[2024-09-04 15:19:31 +0700] [14298] [INFO] Worker exiting (pid: 14298)
+[2024-09-04 15:19:31 +0700] [14300] [INFO] Worker exiting (pid: 14300)
+[2024-09-04 15:19:31 +0700] [14314] [INFO] Worker exiting (pid: 14314)
+[2024-09-04 15:19:31 +0700] [14305] [INFO] Worker exiting (pid: 14305)
+[2024-09-04 15:19:31 +0700] [14304] [INFO] Worker exiting (pid: 14304)
+[2024-09-04 15:19:31 +0700] [14312] [INFO] Worker exiting (pid: 14312)
+[2024-09-04 15:19:31 +0700] [14309] [INFO] Worker exiting (pid: 14309)
+[2024-09-04 15:19:31 +0700] [14301] [INFO] Worker exiting (pid: 14301)
+[2024-09-04 15:19:31 +0700] [14308] [INFO] Worker exiting (pid: 14308)
+[2024-09-04 15:19:31 +0700] [14295] [INFO] Worker exiting (pid: 14295)
+[2024-09-04 15:19:31 +0700] [14307] [INFO] Worker exiting (pid: 14307)
+[2024-09-04 15:19:31 +0700] [14311] [INFO] Worker exiting (pid: 14311)
+[2024-09-04 15:19:31 +0700] [14303] [INFO] Worker exiting (pid: 14303)
+[2024-09-04 15:19:32 +0700] [14262] [INFO] Shutting down: Master
+[2024-09-04 15:19:34 +0700] [14699] [INFO] Starting gunicorn 22.0.0
+[2024-09-04 15:19:34 +0700] [14699] [INFO] Listening at: http://127.0.0.1:8000 (14699)
+[2024-09-04 15:19:34 +0700] [14699] [INFO] Using worker: sync
+[2024-09-04 15:19:34 +0700] [14707] [INFO] Booting worker with pid: 14707
+[2024-09-04 15:19:34 +0700] [14708] [INFO] Booting worker with pid: 14708
+[2024-09-04 15:19:35 +0700] [14710] [INFO] Booting worker with pid: 14710
+[2024-09-04 15:19:35 +0700] [14711] [INFO] Booting worker with pid: 14711
+[2024-09-04 15:19:35 +0700] [14712] [INFO] Booting worker with pid: 14712
+[2024-09-04 15:19:35 +0700] [14713] [INFO] Booting worker with pid: 14713
+[2024-09-04 15:19:35 +0700] [14714] [INFO] Booting worker with pid: 14714
+[2024-09-04 15:19:35 +0700] [14715] [INFO] Booting worker with pid: 14715
+[2024-09-04 15:19:35 +0700] [14716] [INFO] Booting worker with pid: 14716
+[2024-09-04 15:19:35 +0700] [14717] [INFO] Booting worker with pid: 14717
+[2024-09-04 15:19:35 +0700] [14718] [INFO] Booting worker with pid: 14718
+[2024-09-04 15:19:35 +0700] [14719] [INFO] Booting worker with pid: 14719
+[2024-09-04 15:19:35 +0700] [14720] [INFO] Booting worker with pid: 14720
+[2024-09-04 15:19:35 +0700] [14724] [INFO] Booting worker with pid: 14724
+[2024-09-04 15:19:35 +0700] [14725] [INFO] Booting worker with pid: 14725
+[2024-09-04 15:19:35 +0700] [14726] [INFO] Booting worker with pid: 14726
+[2024-09-04 15:19:35 +0700] [14729] [INFO] Booting worker with pid: 14729
+[2024-09-04 15:19:35 +0700] [14734] [INFO] Booting worker with pid: 14734
+[2024-09-04 15:19:35 +0700] [14735] [INFO] Booting worker with pid: 14735
+[2024-09-04 15:19:35 +0700] [14736] [INFO] Booting worker with pid: 14736
+[2024-09-04 15:19:35 +0700] [14737] [INFO] Booting worker with pid: 14737
+[2024-09-04 15:19:36 +0700] [14738] [INFO] Booting worker with pid: 14738
+[2024-09-04 15:19:36 +0700] [14739] [INFO] Booting worker with pid: 14739
+[2024-09-04 15:19:36 +0700] [14740] [INFO] Booting worker with pid: 14740
+[2024-09-04 15:19:36 +0700] [14741] [INFO] Booting worker with pid: 14741
+[2024-09-04 15:35:22 +0700] [14699] [INFO] Handling signal: term
+[2024-09-04 15:35:22 +0700] [14716] [INFO] Worker exiting (pid: 14716)
+[2024-09-04 15:35:22 +0700] [14714] [INFO] Worker exiting (pid: 14714)
+[2024-09-04 15:35:22 +0700] [14717] [INFO] Worker exiting (pid: 14717)
+[2024-09-04 15:35:22 +0700] [14707] [INFO] Worker exiting (pid: 14707)
+[2024-09-04 15:35:22 +0700] [14713] [INFO] Worker exiting (pid: 14713)
+[2024-09-04 15:35:22 +0700] [14711] [INFO] Worker exiting (pid: 14711)
+[2024-09-04 15:35:22 +0700] [14739] [INFO] Worker exiting (pid: 14739)
+[2024-09-04 15:35:22 +0700] [14720] [INFO] Worker exiting (pid: 14720)
+[2024-09-04 15:35:22 +0700] [14718] [INFO] Worker exiting (pid: 14718)
+[2024-09-04 15:35:22 +0700] [14712] [INFO] Worker exiting (pid: 14712)
+[2024-09-04 15:35:22 +0700] [14725] [INFO] Worker exiting (pid: 14725)
+[2024-09-04 15:35:22 +0700] [14734] [INFO] Worker exiting (pid: 14734)
+[2024-09-04 15:35:22 +0700] [14738] [INFO] Worker exiting (pid: 14738)
+[2024-09-04 15:35:22 +0700] [14710] [INFO] Worker exiting (pid: 14710)
+[2024-09-04 15:35:22 +0700] [14719] [INFO] Worker exiting (pid: 14719)
+[2024-09-04 15:35:22 +0700] [14724] [INFO] Worker exiting (pid: 14724)
+[2024-09-04 15:35:22 +0700] [14736] [INFO] Worker exiting (pid: 14736)
+[2024-09-04 15:35:22 +0700] [14715] [INFO] Worker exiting (pid: 14715)
+[2024-09-04 15:35:22 +0700] [14737] [INFO] Worker exiting (pid: 14737)
+[2024-09-04 15:35:22 +0700] [14740] [INFO] Worker exiting (pid: 14740)
+[2024-09-04 15:35:22 +0700] [14741] [INFO] Worker exiting (pid: 14741)
+[2024-09-04 15:35:22 +0700] [14735] [INFO] Worker exiting (pid: 14735)
+[2024-09-04 15:35:22 +0700] [14729] [INFO] Worker exiting (pid: 14729)
+[2024-09-04 15:35:22 +0700] [14708] [INFO] Worker exiting (pid: 14708)
+[2024-09-04 15:35:22 +0700] [14726] [INFO] Worker exiting (pid: 14726)
+[2024-09-04 15:35:22 +0700] [14699] [INFO] Shutting down: Master
+[2024-09-04 15:35:23 +0700] [17960] [INFO] Starting gunicorn 22.0.0
+[2024-09-04 15:35:23 +0700] [17960] [INFO] Listening at: http://127.0.0.1:8000 (17960)
+[2024-09-04 15:35:23 +0700] [17960] [INFO] Using worker: sync
+[2024-09-04 15:35:23 +0700] [17983] [INFO] Booting worker with pid: 17983
+[2024-09-04 15:35:23 +0700] [17985] [INFO] Booting worker with pid: 17985
+[2024-09-04 15:35:24 +0700] [17986] [INFO] Booting worker with pid: 17986
+[2024-09-04 15:35:24 +0700] [17987] [INFO] Booting worker with pid: 17987
+[2024-09-04 15:35:24 +0700] [17988] [INFO] Booting worker with pid: 17988
+[2024-09-04 15:35:24 +0700] [17989] [INFO] Booting worker with pid: 17989
+[2024-09-04 15:35:24 +0700] [17990] [INFO] Booting worker with pid: 17990
+[2024-09-04 15:35:24 +0700] [17991] [INFO] Booting worker with pid: 17991
+[2024-09-04 15:35:24 +0700] [17992] [INFO] Booting worker with pid: 17992
+[2024-09-04 15:35:24 +0700] [17993] [INFO] Booting worker with pid: 17993
+[2024-09-04 15:35:24 +0700] [17994] [INFO] Booting worker with pid: 17994
+[2024-09-04 15:35:24 +0700] [17995] [INFO] Booting worker with pid: 17995
+[2024-09-04 15:35:24 +0700] [17999] [INFO] Booting worker with pid: 17999
+[2024-09-04 15:35:24 +0700] [18000] [INFO] Booting worker with pid: 18000
+[2024-09-04 15:35:24 +0700] [18001] [INFO] Booting worker with pid: 18001
+[2024-09-04 15:35:24 +0700] [18002] [INFO] Booting worker with pid: 18002
+[2024-09-04 15:35:24 +0700] [18003] [INFO] Booting worker with pid: 18003
+[2024-09-04 15:35:24 +0700] [18008] [INFO] Booting worker with pid: 18008
+[2024-09-04 15:35:24 +0700] [18011] [INFO] Booting worker with pid: 18011
+[2024-09-04 15:35:24 +0700] [18012] [INFO] Booting worker with pid: 18012
+[2024-09-04 15:35:24 +0700] [18013] [INFO] Booting worker with pid: 18013
+[2024-09-04 15:35:24 +0700] [18017] [INFO] Booting worker with pid: 18017
+[2024-09-04 15:35:24 +0700] [18018] [INFO] Booting worker with pid: 18018
+[2024-09-04 15:35:25 +0700] [18021] [INFO] Booting worker with pid: 18021
+[2024-09-04 15:35:25 +0700] [18025] [INFO] Booting worker with pid: 18025
+[2024-09-04 15:37:07 +0700] [17960] [INFO] Handling signal: term
+[2024-09-04 15:37:07 +0700] [17983] [INFO] Worker exiting (pid: 17983)
+[2024-09-04 15:37:07 +0700] [17985] [INFO] Worker exiting (pid: 17985)
+[2024-09-04 15:37:07 +0700] [17993] [INFO] Worker exiting (pid: 17993)
+[2024-09-04 15:37:07 +0700] [17995] [INFO] Worker exiting (pid: 17995)
+[2024-09-04 15:37:07 +0700] [17986] [INFO] Worker exiting (pid: 17986)
+[2024-09-04 15:37:07 +0700] [17987] [INFO] Worker exiting (pid: 17987)
+[2024-09-04 15:37:07 +0700] [17999] [INFO] Worker exiting (pid: 17999)
+[2024-09-04 15:37:07 +0700] [17990] [INFO] Worker exiting (pid: 17990)
+[2024-09-04 15:37:07 +0700] [17988] [INFO] Worker exiting (pid: 17988)
+[2024-09-04 15:37:07 +0700] [17991] [INFO] Worker exiting (pid: 17991)
+[2024-09-04 15:37:07 +0700] [17989] [INFO] Worker exiting (pid: 17989)
+[2024-09-04 15:37:07 +0700] [17992] [INFO] Worker exiting (pid: 17992)
+[2024-09-04 15:37:07 +0700] [18008] [INFO] Worker exiting (pid: 18008)
+[2024-09-04 15:37:07 +0700] [18003] [INFO] Worker exiting (pid: 18003)
+[2024-09-04 15:37:07 +0700] [18011] [INFO] Worker exiting (pid: 18011)
+[2024-09-04 15:37:07 +0700] [18012] [INFO] Worker exiting (pid: 18012)
+[2024-09-04 15:37:07 +0700] [18000] [INFO] Worker exiting (pid: 18000)
+[2024-09-04 15:37:07 +0700] [17994] [INFO] Worker exiting (pid: 17994)
+[2024-09-04 15:37:07 +0700] [18002] [INFO] Worker exiting (pid: 18002)
+[2024-09-04 15:37:07 +0700] [18013] [INFO] Worker exiting (pid: 18013)
+[2024-09-04 15:37:07 +0700] [18001] [INFO] Worker exiting (pid: 18001)
+[2024-09-04 15:37:07 +0700] [18025] [INFO] Worker exiting (pid: 18025)
+[2024-09-04 15:37:07 +0700] [18021] [INFO] Worker exiting (pid: 18021)
+[2024-09-04 15:37:07 +0700] [18018] [INFO] Worker exiting (pid: 18018)
+[2024-09-04 15:37:07 +0700] [18017] [INFO] Worker exiting (pid: 18017)
+[2024-09-04 15:37:08 +0700] [17960] [INFO] Shutting down: Master
+[2024-09-04 15:37:10 +0700] [18931] [INFO] Starting gunicorn 22.0.0
+[2024-09-04 15:37:10 +0700] [18931] [INFO] Listening at: http://127.0.0.1:8000 (18931)
+[2024-09-04 15:37:10 +0700] [18931] [INFO] Using worker: sync
+[2024-09-04 15:37:10 +0700] [18939] [INFO] Booting worker with pid: 18939
+[2024-09-04 15:37:10 +0700] [18940] [INFO] Booting worker with pid: 18940
+[2024-09-04 15:37:10 +0700] [18941] [INFO] Booting worker with pid: 18941
+[2024-09-04 15:37:10 +0700] [18942] [INFO] Booting worker with pid: 18942
+[2024-09-04 15:37:10 +0700] [18944] [INFO] Booting worker with pid: 18944
+[2024-09-04 15:37:10 +0700] [18945] [INFO] Booting worker with pid: 18945
+[2024-09-04 15:37:10 +0700] [18946] [INFO] Booting worker with pid: 18946
+[2024-09-04 15:37:10 +0700] [18947] [INFO] Booting worker with pid: 18947
+[2024-09-04 15:37:10 +0700] [18948] [INFO] Booting worker with pid: 18948
+[2024-09-04 15:37:10 +0700] [18949] [INFO] Booting worker with pid: 18949
+[2024-09-04 15:37:10 +0700] [18950] [INFO] Booting worker with pid: 18950
+[2024-09-04 15:37:10 +0700] [18951] [INFO] Booting worker with pid: 18951
+[2024-09-04 15:37:10 +0700] [18952] [INFO] Booting worker with pid: 18952
+[2024-09-04 15:37:10 +0700] [18956] [INFO] Booting worker with pid: 18956
+[2024-09-04 15:37:10 +0700] [18960] [INFO] Booting worker with pid: 18960
+[2024-09-04 15:37:11 +0700] [18964] [INFO] Booting worker with pid: 18964
+[2024-09-04 15:37:11 +0700] [18965] [INFO] Booting worker with pid: 18965
+[2024-09-04 15:37:11 +0700] [18966] [INFO] Booting worker with pid: 18966
+[2024-09-04 15:37:11 +0700] [18969] [INFO] Booting worker with pid: 18969
+[2024-09-04 15:37:11 +0700] [18974] [INFO] Booting worker with pid: 18974
+[2024-09-04 15:37:11 +0700] [18975] [INFO] Booting worker with pid: 18975
+[2024-09-04 15:37:11 +0700] [18976] [INFO] Booting worker with pid: 18976
+[2024-09-04 15:37:11 +0700] [18977] [INFO] Booting worker with pid: 18977
+[2024-09-04 15:37:11 +0700] [18978] [INFO] Booting worker with pid: 18978
+[2024-09-04 15:37:11 +0700] [18979] [INFO] Booting worker with pid: 18979
+[2024-09-05 08:23:42 +0700] [422] [INFO] Starting gunicorn 22.0.0
+[2024-09-05 08:23:42 +0700] [422] [INFO] Listening at: http://127.0.0.1:8000 (422)
+[2024-09-05 08:23:42 +0700] [422] [INFO] Using worker: sync
+[2024-09-05 08:23:42 +0700] [655] [INFO] Booting worker with pid: 655
+[2024-09-05 08:23:42 +0700] [656] [INFO] Booting worker with pid: 656
+[2024-09-05 08:23:42 +0700] [657] [INFO] Booting worker with pid: 657
+[2024-09-05 08:23:42 +0700] [658] [INFO] Booting worker with pid: 658
+[2024-09-05 08:23:42 +0700] [659] [INFO] Booting worker with pid: 659
+[2024-09-05 08:23:42 +0700] [660] [INFO] Booting worker with pid: 660
+[2024-09-05 08:23:42 +0700] [661] [INFO] Booting worker with pid: 661
+[2024-09-05 08:23:42 +0700] [662] [INFO] Booting worker with pid: 662
+[2024-09-05 08:23:42 +0700] [663] [INFO] Booting worker with pid: 663
+[2024-09-05 08:23:42 +0700] [664] [INFO] Booting worker with pid: 664
+[2024-09-05 08:23:42 +0700] [665] [INFO] Booting worker with pid: 665
+[2024-09-05 08:23:42 +0700] [666] [INFO] Booting worker with pid: 666
+[2024-09-05 08:23:42 +0700] [667] [INFO] Booting worker with pid: 667
+[2024-09-05 08:23:42 +0700] [669] [INFO] Booting worker with pid: 669
+[2024-09-05 08:23:43 +0700] [673] [INFO] Booting worker with pid: 673
+[2024-09-05 08:23:43 +0700] [674] [INFO] Booting worker with pid: 674
+[2024-09-05 08:23:43 +0700] [678] [INFO] Booting worker with pid: 678
+[2024-09-05 08:23:43 +0700] [679] [INFO] Booting worker with pid: 679
+[2024-09-05 08:23:43 +0700] [680] [INFO] Booting worker with pid: 680
+[2024-09-05 08:23:43 +0700] [681] [INFO] Booting worker with pid: 681
+[2024-09-05 08:23:43 +0700] [684] [INFO] Booting worker with pid: 684
+[2024-09-05 08:23:43 +0700] [685] [INFO] Booting worker with pid: 685
+[2024-09-05 08:23:43 +0700] [686] [INFO] Booting worker with pid: 686
+[2024-09-05 08:23:43 +0700] [690] [INFO] Booting worker with pid: 690
+[2024-09-05 08:23:43 +0700] [691] [INFO] Booting worker with pid: 691
+[2024-09-06 10:16:53 +0700] [492] [INFO] Starting gunicorn 22.0.0
+[2024-09-06 10:16:53 +0700] [492] [INFO] Listening at: http://127.0.0.1:8000 (492)
+[2024-09-06 10:16:53 +0700] [492] [INFO] Using worker: sync
+[2024-09-06 10:16:53 +0700] [519] [INFO] Booting worker with pid: 519
+[2024-09-06 10:16:53 +0700] [520] [INFO] Booting worker with pid: 520
+[2024-09-06 10:16:53 +0700] [521] [INFO] Booting worker with pid: 521
+[2024-09-06 10:16:53 +0700] [522] [INFO] Booting worker with pid: 522
+[2024-09-06 10:16:53 +0700] [523] [INFO] Booting worker with pid: 523
+[2024-09-06 10:16:53 +0700] [524] [INFO] Booting worker with pid: 524
+[2024-09-06 10:16:53 +0700] [525] [INFO] Booting worker with pid: 525
+[2024-09-06 10:16:53 +0700] [526] [INFO] Booting worker with pid: 526
+[2024-09-06 10:16:53 +0700] [527] [INFO] Booting worker with pid: 527
+[2024-09-06 10:16:53 +0700] [528] [INFO] Booting worker with pid: 528
+[2024-09-06 10:16:53 +0700] [529] [INFO] Booting worker with pid: 529
+[2024-09-06 10:16:53 +0700] [530] [INFO] Booting worker with pid: 530
+[2024-09-06 10:16:53 +0700] [531] [INFO] Booting worker with pid: 531
+[2024-09-06 10:16:53 +0700] [534] [INFO] Booting worker with pid: 534
+[2024-09-06 10:16:53 +0700] [535] [INFO] Booting worker with pid: 535
+[2024-09-06 10:16:53 +0700] [536] [INFO] Booting worker with pid: 536
+[2024-09-06 10:16:53 +0700] [537] [INFO] Booting worker with pid: 537
+[2024-09-06 10:16:53 +0700] [538] [INFO] Booting worker with pid: 538
+[2024-09-06 10:16:54 +0700] [539] [INFO] Booting worker with pid: 539
+[2024-09-06 10:16:54 +0700] [540] [INFO] Booting worker with pid: 540
+[2024-09-06 10:16:54 +0700] [541] [INFO] Booting worker with pid: 541
+[2024-09-06 10:16:54 +0700] [545] [INFO] Booting worker with pid: 545
+[2024-09-06 10:16:54 +0700] [546] [INFO] Booting worker with pid: 546
+[2024-09-06 10:16:54 +0700] [547] [INFO] Booting worker with pid: 547
+[2024-09-06 10:16:54 +0700] [548] [INFO] Booting worker with pid: 548
+[2024-09-06 10:17:14 +0700] [482] [INFO] Starting gunicorn 22.0.0
+[2024-09-06 10:17:14 +0700] [482] [INFO] Listening at: http://127.0.0.1:8000 (482)
+[2024-09-06 10:17:14 +0700] [482] [INFO] Using worker: sync
+[2024-09-06 10:17:14 +0700] [509] [INFO] Booting worker with pid: 509
+[2024-09-06 10:17:14 +0700] [510] [INFO] Booting worker with pid: 510
+[2024-09-06 10:17:14 +0700] [511] [INFO] Booting worker with pid: 511
+[2024-09-06 10:17:14 +0700] [512] [INFO] Booting worker with pid: 512
+[2024-09-06 10:17:15 +0700] [513] [INFO] Booting worker with pid: 513
+[2024-09-06 10:17:15 +0700] [514] [INFO] Booting worker with pid: 514
+[2024-09-06 10:17:15 +0700] [515] [INFO] Booting worker with pid: 515
+[2024-09-06 10:17:15 +0700] [516] [INFO] Booting worker with pid: 516
+[2024-09-06 10:17:15 +0700] [517] [INFO] Booting worker with pid: 517
+[2024-09-06 10:17:15 +0700] [518] [INFO] Booting worker with pid: 518
+[2024-09-06 10:17:15 +0700] [519] [INFO] Booting worker with pid: 519
+[2024-09-06 10:17:15 +0700] [520] [INFO] Booting worker with pid: 520
+[2024-09-06 10:17:15 +0700] [521] [INFO] Booting worker with pid: 521
+[2024-09-06 10:17:15 +0700] [523] [INFO] Booting worker with pid: 523
+[2024-09-06 10:17:15 +0700] [525] [INFO] Booting worker with pid: 525
+[2024-09-06 10:17:15 +0700] [526] [INFO] Booting worker with pid: 526
+[2024-09-06 10:17:15 +0700] [527] [INFO] Booting worker with pid: 527
+[2024-09-06 10:17:15 +0700] [528] [INFO] Booting worker with pid: 528
+[2024-09-06 10:17:15 +0700] [529] [INFO] Booting worker with pid: 529
+[2024-09-06 10:17:15 +0700] [530] [INFO] Booting worker with pid: 530
+[2024-09-06 10:17:15 +0700] [531] [INFO] Booting worker with pid: 531
+[2024-09-06 10:17:15 +0700] [532] [INFO] Booting worker with pid: 532
+[2024-09-06 10:17:15 +0700] [533] [INFO] Booting worker with pid: 533
+[2024-09-06 10:17:15 +0700] [534] [INFO] Booting worker with pid: 534
+[2024-09-06 10:17:16 +0700] [538] [INFO] Booting worker with pid: 538
+[2024-09-06 10:17:41 +0700] [476] [INFO] Starting gunicorn 22.0.0
+[2024-09-06 10:17:41 +0700] [476] [INFO] Listening at: http://127.0.0.1:8000 (476)
+[2024-09-06 10:17:41 +0700] [476] [INFO] Using worker: sync
+[2024-09-06 10:17:41 +0700] [503] [INFO] Booting worker with pid: 503
+[2024-09-06 10:17:41 +0700] [504] [INFO] Booting worker with pid: 504
+[2024-09-06 10:17:41 +0700] [505] [INFO] Booting worker with pid: 505
+[2024-09-06 10:17:41 +0700] [506] [INFO] Booting worker with pid: 506
+[2024-09-06 10:17:41 +0700] [507] [INFO] Booting worker with pid: 507
+[2024-09-06 10:17:41 +0700] [516] [INFO] Booting worker with pid: 516
+[2024-09-06 10:17:41 +0700] [517] [INFO] Booting worker with pid: 517
+[2024-09-06 10:17:41 +0700] [518] [INFO] Booting worker with pid: 518
+[2024-09-06 10:17:41 +0700] [519] [INFO] Booting worker with pid: 519
+[2024-09-06 10:17:41 +0700] [521] [INFO] Booting worker with pid: 521
+[2024-09-06 10:17:41 +0700] [522] [INFO] Booting worker with pid: 522
+[2024-09-06 10:17:41 +0700] [524] [INFO] Booting worker with pid: 524
+[2024-09-06 10:17:41 +0700] [525] [INFO] Booting worker with pid: 525
+[2024-09-06 10:17:41 +0700] [526] [INFO] Booting worker with pid: 526
+[2024-09-06 10:17:41 +0700] [527] [INFO] Booting worker with pid: 527
+[2024-09-06 10:17:41 +0700] [528] [INFO] Booting worker with pid: 528
+[2024-09-06 10:17:41 +0700] [529] [INFO] Booting worker with pid: 529
+[2024-09-06 10:17:41 +0700] [530] [INFO] Booting worker with pid: 530
+[2024-09-06 10:17:41 +0700] [531] [INFO] Booting worker with pid: 531
+[2024-09-06 10:17:41 +0700] [532] [INFO] Booting worker with pid: 532
+[2024-09-06 10:17:41 +0700] [533] [INFO] Booting worker with pid: 533
+[2024-09-06 10:17:41 +0700] [536] [INFO] Booting worker with pid: 536
+[2024-09-06 10:17:41 +0700] [537] [INFO] Booting worker with pid: 537
+[2024-09-06 10:17:42 +0700] [538] [INFO] Booting worker with pid: 538
+[2024-09-06 10:17:42 +0700] [539] [INFO] Booting worker with pid: 539
+[2024-09-09 08:45:32 +0700] [494] [INFO] Starting gunicorn 22.0.0
+[2024-09-09 08:45:32 +0700] [494] [INFO] Listening at: http://127.0.0.1:8000 (494)
+[2024-09-09 08:45:32 +0700] [494] [INFO] Using worker: sync
+[2024-09-09 08:45:32 +0700] [525] [INFO] Booting worker with pid: 525
+[2024-09-09 08:45:32 +0700] [526] [INFO] Booting worker with pid: 526
+[2024-09-09 08:45:32 +0700] [527] [INFO] Booting worker with pid: 527
+[2024-09-09 08:45:32 +0700] [528] [INFO] Booting worker with pid: 528
+[2024-09-09 08:45:32 +0700] [529] [INFO] Booting worker with pid: 529
+[2024-09-09 08:45:32 +0700] [530] [INFO] Booting worker with pid: 530
+[2024-09-09 08:45:32 +0700] [531] [INFO] Booting worker with pid: 531
+[2024-09-09 08:45:32 +0700] [532] [INFO] Booting worker with pid: 532
+[2024-09-09 08:45:32 +0700] [533] [INFO] Booting worker with pid: 533
+[2024-09-09 08:45:33 +0700] [534] [INFO] Booting worker with pid: 534
+[2024-09-09 08:45:33 +0700] [537] [INFO] Booting worker with pid: 537
+[2024-09-09 08:45:33 +0700] [538] [INFO] Booting worker with pid: 538
+[2024-09-09 08:45:33 +0700] [539] [INFO] Booting worker with pid: 539
+[2024-09-09 08:45:33 +0700] [540] [INFO] Booting worker with pid: 540
+[2024-09-09 08:45:33 +0700] [541] [INFO] Booting worker with pid: 541
+[2024-09-09 08:45:33 +0700] [542] [INFO] Booting worker with pid: 542
+[2024-09-09 08:45:33 +0700] [544] [INFO] Booting worker with pid: 544
+[2024-09-09 08:45:33 +0700] [547] [INFO] Booting worker with pid: 547
+[2024-09-09 08:45:33 +0700] [548] [INFO] Booting worker with pid: 548
+[2024-09-09 08:45:33 +0700] [549] [INFO] Booting worker with pid: 549
+[2024-09-09 08:45:33 +0700] [550] [INFO] Booting worker with pid: 550
+[2024-09-09 08:45:33 +0700] [551] [INFO] Booting worker with pid: 551
+[2024-09-09 08:45:33 +0700] [552] [INFO] Booting worker with pid: 552
+[2024-09-09 08:45:33 +0700] [553] [INFO] Booting worker with pid: 553
+[2024-09-09 08:45:33 +0700] [554] [INFO] Booting worker with pid: 554
+[2024-09-11 08:21:06 +0700] [497] [INFO] Starting gunicorn 22.0.0
+[2024-09-11 08:21:06 +0700] [497] [INFO] Listening at: http://127.0.0.1:8000 (497)
+[2024-09-11 08:21:06 +0700] [497] [INFO] Using worker: sync
+[2024-09-11 08:21:06 +0700] [526] [INFO] Booting worker with pid: 526
+[2024-09-11 08:21:06 +0700] [527] [INFO] Booting worker with pid: 527
+[2024-09-11 08:21:06 +0700] [528] [INFO] Booting worker with pid: 528
+[2024-09-11 08:21:06 +0700] [529] [INFO] Booting worker with pid: 529
+[2024-09-11 08:21:06 +0700] [530] [INFO] Booting worker with pid: 530
+[2024-09-11 08:21:06 +0700] [531] [INFO] Booting worker with pid: 531
+[2024-09-11 08:21:06 +0700] [532] [INFO] Booting worker with pid: 532
+[2024-09-11 08:21:06 +0700] [533] [INFO] Booting worker with pid: 533
+[2024-09-11 08:21:06 +0700] [534] [INFO] Booting worker with pid: 534
+[2024-09-11 08:21:06 +0700] [535] [INFO] Booting worker with pid: 535
+[2024-09-11 08:21:06 +0700] [536] [INFO] Booting worker with pid: 536
+[2024-09-11 08:21:06 +0700] [539] [INFO] Booting worker with pid: 539
+[2024-09-11 08:21:06 +0700] [540] [INFO] Booting worker with pid: 540
+[2024-09-11 08:21:06 +0700] [541] [INFO] Booting worker with pid: 541
+[2024-09-11 08:21:06 +0700] [542] [INFO] Booting worker with pid: 542
+[2024-09-11 08:21:06 +0700] [543] [INFO] Booting worker with pid: 543
+[2024-09-11 08:21:07 +0700] [544] [INFO] Booting worker with pid: 544
+[2024-09-11 08:21:07 +0700] [546] [INFO] Booting worker with pid: 546
+[2024-09-11 08:21:07 +0700] [549] [INFO] Booting worker with pid: 549
+[2024-09-11 08:21:07 +0700] [552] [INFO] Booting worker with pid: 552
+[2024-09-11 08:21:07 +0700] [553] [INFO] Booting worker with pid: 553
+[2024-09-11 08:21:07 +0700] [554] [INFO] Booting worker with pid: 554
+[2024-09-11 08:21:07 +0700] [555] [INFO] Booting worker with pid: 555
+[2024-09-11 08:21:07 +0700] [556] [INFO] Booting worker with pid: 556
+[2024-09-11 08:21:07 +0700] [557] [INFO] Booting worker with pid: 557
+[2024-09-11 08:21:27 +0700] [487] [INFO] Starting gunicorn 22.0.0
+[2024-09-11 08:21:27 +0700] [487] [INFO] Listening at: http://127.0.0.1:8000 (487)
+[2024-09-11 08:21:27 +0700] [487] [INFO] Using worker: sync
+[2024-09-11 08:21:27 +0700] [514] [INFO] Booting worker with pid: 514
+[2024-09-11 08:21:27 +0700] [515] [INFO] Booting worker with pid: 515
+[2024-09-11 08:21:27 +0700] [516] [INFO] Booting worker with pid: 516
+[2024-09-11 08:21:27 +0700] [517] [INFO] Booting worker with pid: 517
+[2024-09-11 08:21:27 +0700] [518] [INFO] Booting worker with pid: 518
+[2024-09-11 08:21:27 +0700] [519] [INFO] Booting worker with pid: 519
+[2024-09-11 08:21:27 +0700] [520] [INFO] Booting worker with pid: 520
+[2024-09-11 08:21:27 +0700] [521] [INFO] Booting worker with pid: 521
+[2024-09-11 08:21:27 +0700] [522] [INFO] Booting worker with pid: 522
+[2024-09-11 08:21:27 +0700] [523] [INFO] Booting worker with pid: 523
+[2024-09-11 08:21:27 +0700] [524] [INFO] Booting worker with pid: 524
+[2024-09-11 08:21:28 +0700] [527] [INFO] Booting worker with pid: 527
+[2024-09-11 08:21:28 +0700] [528] [INFO] Booting worker with pid: 528
+[2024-09-11 08:21:28 +0700] [529] [INFO] Booting worker with pid: 529
+[2024-09-11 08:21:28 +0700] [530] [INFO] Booting worker with pid: 530
+[2024-09-11 08:21:28 +0700] [531] [INFO] Booting worker with pid: 531
+[2024-09-11 08:21:28 +0700] [532] [INFO] Booting worker with pid: 532
+[2024-09-11 08:21:28 +0700] [533] [INFO] Booting worker with pid: 533
+[2024-09-11 08:21:28 +0700] [534] [INFO] Booting worker with pid: 534
+[2024-09-11 08:21:28 +0700] [535] [INFO] Booting worker with pid: 535
+[2024-09-11 08:21:28 +0700] [536] [INFO] Booting worker with pid: 536
+[2024-09-11 08:21:28 +0700] [537] [INFO] Booting worker with pid: 537
+[2024-09-11 08:21:28 +0700] [538] [INFO] Booting worker with pid: 538
+[2024-09-11 08:21:28 +0700] [539] [INFO] Booting worker with pid: 539
+[2024-09-11 08:21:28 +0700] [540] [INFO] Booting worker with pid: 540
+[2024-09-12 08:21:51 +0700] [501] [INFO] Starting gunicorn 22.0.0
+[2024-09-12 08:21:51 +0700] [501] [INFO] Listening at: http://127.0.0.1:8000 (501)
+[2024-09-12 08:21:51 +0700] [501] [INFO] Using worker: sync
+[2024-09-12 08:21:51 +0700] [532] [INFO] Booting worker with pid: 532
+[2024-09-12 08:21:51 +0700] [533] [INFO] Booting worker with pid: 533
+[2024-09-12 08:21:51 +0700] [534] [INFO] Booting worker with pid: 534
+[2024-09-12 08:21:51 +0700] [535] [INFO] Booting worker with pid: 535
+[2024-09-12 08:21:51 +0700] [536] [INFO] Booting worker with pid: 536
+[2024-09-12 08:21:51 +0700] [537] [INFO] Booting worker with pid: 537
+[2024-09-12 08:21:51 +0700] [538] [INFO] Booting worker with pid: 538
+[2024-09-12 08:21:51 +0700] [539] [INFO] Booting worker with pid: 539
+[2024-09-12 08:21:51 +0700] [540] [INFO] Booting worker with pid: 540
+[2024-09-12 08:21:51 +0700] [541] [INFO] Booting worker with pid: 541
+[2024-09-12 08:21:51 +0700] [542] [INFO] Booting worker with pid: 542
+[2024-09-12 08:21:51 +0700] [543] [INFO] Booting worker with pid: 543
+[2024-09-12 08:21:51 +0700] [544] [INFO] Booting worker with pid: 544
+[2024-09-12 08:21:51 +0700] [545] [INFO] Booting worker with pid: 545
+[2024-09-12 08:21:51 +0700] [546] [INFO] Booting worker with pid: 546
+[2024-09-12 08:21:51 +0700] [547] [INFO] Booting worker with pid: 547
+[2024-09-12 08:21:51 +0700] [548] [INFO] Booting worker with pid: 548
+[2024-09-12 08:21:51 +0700] [549] [INFO] Booting worker with pid: 549
+[2024-09-12 08:21:52 +0700] [550] [INFO] Booting worker with pid: 550
+[2024-09-12 08:21:52 +0700] [551] [INFO] Booting worker with pid: 551
+[2024-09-12 08:21:52 +0700] [552] [INFO] Booting worker with pid: 552
+[2024-09-12 08:21:52 +0700] [553] [INFO] Booting worker with pid: 553
+[2024-09-12 08:21:52 +0700] [554] [INFO] Booting worker with pid: 554
+[2024-09-12 08:21:52 +0700] [555] [INFO] Booting worker with pid: 555
+[2024-09-12 08:21:52 +0700] [558] [INFO] Booting worker with pid: 558

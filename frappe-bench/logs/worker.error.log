@@ -1,0 +1,1 @@
+StartedJobRegistry cleanup: Moving job to FailedJobRegistry (due to AbandonedJobError)

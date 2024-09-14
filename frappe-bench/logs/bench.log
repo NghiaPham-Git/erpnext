@@ -1,0 +1,163 @@
+2024-09-04 15:06:09,163 DEBUG cd frappe-bench && python3 -m venv env
+2024-09-04 15:06:15,222 DEBUG cd frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip install  --upgrade pip
+2024-09-04 15:06:19,870 DEBUG cd frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip install  wheel
+2024-09-04 15:06:24,527 LOG Getting frappe
+2024-09-04 15:06:24,528 DEBUG cd frappe-bench/apps && git clone https://github.com/frappe/frappe.git --branch version-15 --depth 1 --origin upstream
+2024-09-04 15:06:35,305 LOG Installing frappe
+2024-09-04 15:06:35,305 DEBUG cd /home/frappe/frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip install  --upgrade -e /home/frappe/frappe-bench/apps/frappe 
+2024-09-04 15:08:46,769 DEBUG cd /home/frappe/frappe-bench/apps/frappe && yarn install --check-files --verbose
+2024-09-04 15:10:09,100 WARNING restart failed: Couldn't find supervisorctl in PATH
+2024-09-04 15:10:09,102 DEBUG cd frappe-bench && bench build
+2024-09-04 15:10:09,325 INFO /usr/local/bin/bench build
+2024-09-04 15:10:43,401 LOG setting up backups
+2024-09-04 15:10:43,425 LOG backups were set up
+2024-09-04 15:10:43,426 INFO Bench frappe-bench initialized
+2024-09-04 15:10:57,359 INFO /usr/local/bin/bench new-site osb --db-root-password 1 --admin-password 1
+2024-09-04 15:12:03,790 INFO /usr/local/bin/bench get-app erpnext --branch version-15
+2024-09-04 15:12:04,749 LOG Getting erpnext
+2024-09-04 15:12:04,750 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2024-09-04 15:14:08,919 WARNING cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream executed with exit code 128
+2024-09-04 15:14:08,920 WARNING /usr/local/bin/bench get-app erpnext --branch version-15 executed with exit code 1
+2024-09-04 15:15:02,561 INFO /usr/local/bin/bench setup production frappe
+2024-09-04 15:15:02,575 DEBUG sudo /usr/bin/python3 -m pip install ansible
+2024-09-04 15:16:03,333 DEBUG bench setup role fail2ban
+2024-09-04 15:16:03,533 INFO /usr/local/bin/bench setup role fail2ban
+2024-09-04 15:16:25,090 DEBUG bench setup role nginx
+2024-09-04 15:16:25,364 INFO /usr/local/bin/bench setup role nginx
+2024-09-04 15:16:47,034 DEBUG bench setup role supervisor
+2024-09-04 15:16:47,295 INFO /usr/local/bin/bench setup role supervisor
+2024-09-04 15:17:02,915 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2024-09-04 15:17:02,915 LOG Updated supervisord.conf: 'chown' changed from '' to 'frappe:frappe'
+2024-09-04 15:17:03,075 DEBUG sudo /usr/sbin/nginx -t
+2024-09-04 15:17:03,106 DEBUG sudo systemctl reload nginx
+2024-09-04 15:17:05,495 INFO /usr/local/bin/bench setup production frappe
+2024-09-04 15:17:05,507 LOG Updated supervisord.conf: 'chmod' changed from '0700                       ; sockef file mode (default 0700)' to '0760'
+2024-09-04 15:17:05,605 DEBUG /usr/bin/supervisorctl reread
+2024-09-04 15:17:05,919 DEBUG /usr/bin/supervisorctl update
+2024-09-04 15:17:06,341 DEBUG sudo /usr/sbin/nginx -t
+2024-09-04 15:17:06,370 DEBUG sudo systemctl reload nginx
+2024-09-04 15:17:06,564 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-04 15:17:06,572 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-04 15:17:06,579 INFO /usr/local/bin/bench schedule
+2024-09-04 15:17:09,309 INFO /usr/local/bin/bench --site osb scheduler enable
+2024-09-04 15:17:10,785 INFO /usr/local/bin/bench --site osb scheduler resume
+2024-09-04 15:17:12,578 INFO /usr/local/bin/bench setup socketio
+2024-09-04 15:17:13,531 INFO /usr/local/bin/bench setup supervisor
+2024-09-04 15:17:14,940 INFO /usr/local/bin/bench setup redis
+2024-09-04 15:17:18,369 INFO /usr/local/bin/bench schedule
+2024-09-04 15:17:18,375 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-04 15:17:18,400 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-04 15:18:42,239 INFO /usr/local/bin/bench get-app erpnext --branch version-15
+2024-09-04 15:18:42,955 LOG Getting erpnext
+2024-09-04 15:18:42,955 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2024-09-04 15:18:53,398 LOG Installing erpnext
+2024-09-04 15:18:53,399 DEBUG cd /home/frappe/frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/frappe/frappe-bench/apps/erpnext 
+2024-09-04 15:19:24,882 DEBUG cd /home/frappe/frappe-bench/apps/erpnext && yarn install --check-files
+2024-09-04 15:19:26,409 DEBUG bench build --app erpnext
+2024-09-04 15:19:26,636 INFO /usr/local/bin/bench build --app erpnext
+2024-09-04 15:19:31,627 DEBUG cd /home/frappe/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-09-04 15:19:34,998 DEBUG cd /home/frappe/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-09-04 15:19:35,748 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-04 15:19:35,750 INFO /usr/local/bin/bench schedule
+2024-09-04 15:19:35,760 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-04 15:34:24,670 INFO /usr/local/bin/bench --site osb install-app erpnext
+2024-09-04 15:34:46,763 INFO /usr/local/bin/bench setup nginx
+2024-09-04 15:35:02,358 INFO /usr/local/bin/bench uninstall-app erpnext
+2024-09-04 15:35:11,046 INFO /usr/local/bin/bench remove-app erpnext
+2024-09-04 15:35:11,261 INFO /usr/local/bin/bench --site all list-apps --format json
+2024-09-04 15:35:12,349 INFO /usr/local/bin/bench --site osb list-apps
+2024-09-04 15:35:12,963 DEBUG cd /home/frappe/frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip uninstall -y erpnext
+2024-09-04 15:35:21,535 INFO App moved from apps/erpnext to archived/apps/erpnext-2024-09-04
+2024-09-04 15:35:21,879 DEBUG cd /home/frappe/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-09-04 15:35:23,899 DEBUG cd /home/frappe/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-09-04 15:35:24,618 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-04 15:35:24,623 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-04 15:35:24,636 INFO /usr/local/bin/bench schedule
+2024-09-04 15:36:46,725 INFO /usr/local/bin/bench get-app erpnext --branch version-15
+2024-09-04 15:36:47,647 LOG Getting erpnext
+2024-09-04 15:36:47,647 DEBUG cd ./apps && git clone https://github.com/frappe/erpnext.git --branch version-15 --depth 1 --origin upstream
+2024-09-04 15:36:58,046 LOG Installing erpnext
+2024-09-04 15:36:58,047 DEBUG cd /home/frappe/frappe-bench && /home/frappe/frappe-bench/env/bin/python -m pip install --quiet --upgrade -e /home/frappe/frappe-bench/apps/erpnext 
+2024-09-04 15:37:01,864 DEBUG cd /home/frappe/frappe-bench/apps/erpnext && yarn install --check-files
+2024-09-04 15:37:02,633 DEBUG bench build --app erpnext
+2024-09-04 15:37:02,817 INFO /usr/local/bin/bench build --app erpnext
+2024-09-04 15:37:07,580 DEBUG cd /home/frappe/frappe-bench && supervisorctl restart frappe-bench-web:
+2024-09-04 15:37:10,456 DEBUG cd /home/frappe/frappe-bench && supervisorctl restart frappe-bench-workers:
+2024-09-04 15:37:11,124 INFO /usr/local/bin/bench schedule
+2024-09-04 15:37:11,138 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-04 15:37:11,148 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-04 15:37:26,772 INFO /usr/local/bin/bench --site osb install-app erpnext
+2024-09-04 15:37:34,275 INFO /usr/local/bin/bench build
+2024-09-04 15:38:20,961 INFO /usr/local/bin/bench --site osb install-app erpnext
+2024-09-04 15:38:36,071 INFO /usr/local/bin/bench drop-site osb
+2024-09-04 15:38:55,700 INFO /usr/local/bin/bench new-site osb.localhost
+2024-09-04 15:40:48,759 INFO /usr/local/bin/bench --site osb.localhost install-app erpnext
+2024-09-04 15:43:33,572 INFO /usr/local/bin/bench --site osb.localhost migrate
+2024-09-04 15:44:14,706 INFO /usr/local/bin/bench use osb.localhost
+2024-09-04 15:44:34,933 INFO /usr/local/bin/bench --site osb.localhost migrate
+2024-09-04 15:45:51,163 INFO /usr/local/bin/bench build requirements
+2024-09-04 15:45:54,432 INFO /usr/local/bin/bench build requirement
+2024-09-04 15:46:05,681 INFO /usr/local/bin/bench --site osb.localhost migrate
+2024-09-04 15:46:24,019 INFO /usr/local/bin/bench setup nginx
+2024-09-04 15:47:51,266 INFO /usr/local/bin/bench --site osb.localhost reinstall
+2024-09-04 15:51:14,195 INFO /usr/local/bin/bench use osb.localhost
+2024-09-04 15:51:42,160 INFO /usr/local/bin/bench set-nginx-port osb.localhost 80
+2024-09-05 08:23:40,978 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-05 08:23:40,978 INFO /usr/local/bin/bench schedule
+2024-09-05 08:23:40,978 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-05 08:51:48,862 INFO /usr/local/bin/bench --site osb.localhost migrate
+2024-09-05 08:57:07,479 INFO /usr/local/bin/bench --site osb.localhost migrate
+2024-09-06 10:16:52,199 INFO /usr/local/bin/bench schedule
+2024-09-06 10:16:52,199 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-06 10:16:52,199 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-06 10:17:14,047 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-06 10:17:14,047 INFO /usr/local/bin/bench schedule
+2024-09-06 10:17:14,047 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-06 10:17:40,334 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-06 10:17:40,334 INFO /usr/local/bin/bench schedule
+2024-09-06 10:17:40,334 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-06 10:36:37,605 INFO /usr/local/bin/bench --site osb.localhost migrate
+2024-09-06 10:39:19,167 INFO /usr/local/bin/bench --site osb.localhost migrate
+2024-09-06 12:00:02,313 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-06 18:00:02,223 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-07 00:00:01,374 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-07 12:00:01,699 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-08 00:00:01,680 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-08 12:00:01,916 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-08 18:00:02,530 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-09 00:00:02,811 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-09 06:00:01,453 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-09 08:45:31,680 INFO /usr/local/bin/bench schedule
+2024-09-09 08:45:31,680 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-09 08:45:31,680 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-09 12:00:01,691 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-10 00:00:52,052 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-10 12:00:01,632 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-10 16:42:47,944 INFO /usr/local/bin/bench --site osb.localhost migrate
+2024-09-10 16:55:13,529 INFO /usr/local/bin/bench --site osb.localhost migrate
+2024-09-10 17:20:59,658 INFO /usr/local/bin/bench --site osb.localhost migrate
+2024-09-11 08:21:05,374 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-11 08:21:05,374 INFO /usr/local/bin/bench schedule
+2024-09-11 08:21:05,374 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-11 08:21:26,772 INFO /usr/local/bin/bench schedule
+2024-09-11 08:21:26,772 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-11 08:21:26,772 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-11 10:32:49,032 INFO /usr/local/bin/bench --site.localhost migrate
+2024-09-11 10:33:17,405 INFO /usr/local/bin/bench --site osb.localhost migrate
+2024-09-11 10:35:23,328 INFO /usr/local/bin/bench --site osb.localhost migrate
+2024-09-11 10:39:01,253 INFO /usr/local/bin/bench --site osb.localhost migrate
+2024-09-11 10:58:20,888 INFO /usr/local/bin/bench --site osb.localhost migrate
+2024-09-11 11:08:36,042 INFO /usr/local/bin/bench --site osb.localhost migrate
+2024-09-11 18:00:01,536 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-12 00:00:01,727 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-12 08:21:50,179 INFO /usr/local/bin/bench worker --queue short,default
+2024-09-12 08:21:50,180 INFO /usr/local/bin/bench worker --queue long,default,short
+2024-09-12 08:21:50,180 INFO /usr/local/bin/bench schedule
+2024-09-12 09:17:01,726 INFO /usr/local/bin/bench --site osb.localhost migrate
+2024-09-12 09:18:49,268 INFO /usr/local/bin/bench --site osb.localhost migrate
+2024-09-12 09:20:25,771 INFO /usr/local/bin/bench --site osb.localhost migrate
+2024-09-12 09:22:38,969 INFO /usr/local/bin/bench --site osb.localhost migrate
+2024-09-12 18:00:01,469 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-13 00:00:01,707 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-13 12:00:01,464 INFO /usr/local/bin/bench --verbose --site all backup
+2024-09-14 00:00:01,690 INFO /usr/local/bin/bench --verbose --site all backup
